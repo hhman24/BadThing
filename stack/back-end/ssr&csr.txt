@@ -1,0 +1,10 @@
+## Serve side rendering 
+> Thường được dùng cho các trang báo chí
+> Trả thả về serve html,css
+> Tối ưu hóa chức tìm kiếm SEO
+> Lượt truy cập đầu tiên nhanh
+
+## Client side rendering
+> Khi nó trả về file <div> trống
+> Đọc file js xử lý bên client
+> Tăng trải nhiệm người dùng

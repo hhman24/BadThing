@@ -1,0 +1,6 @@
+# Client - Server
+> Nhằm truyền tải dữ liệu giữa các máy tính với nhau.
+
+Cliet                           Server: web server                  |database|
+PC,admin   --> request msg -->  Live Server, source code    <-->
+reder      <-- respond msg <--  source code

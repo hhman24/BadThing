@@ -1,0 +1,26 @@
+# Domain
+
+## Ý nghĩa:
+> địa chỉ website 
+
+## Cấu trúc:
+- Tên miền.hậu tố ex: google.com
+- Miền phụ.Tên miền.hậu tố: www.google.com
+
+- Hậu tố:
+    + .com, .vn: top level domain
+    + .com.nv,..: secon domain.top domain
+
+- Phân cấp theo hình cây:
+    + Root: `.`
+        + Top level domain
+            + Second domain
+                + Domain
+                    + Sub Domain
+
+- Hệ thông tên miền: **DNS**
+
+## Vai trò: dễ nhớ
+- Domain không phải là một thành phần bắc buộc
+- Khi deloy một website có thể truy cập trực tiếp bằng địa chỉ IP
+- Domain có thể chỉ về địa chỉ IP

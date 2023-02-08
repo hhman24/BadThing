@@ -1,0 +1,28 @@
+    thư mục đang làm việc               Staging Area                commited
+      hhman.txt             ->          hhman.txt            ->     hhman24.txt  
+
+Câu lệnh github:
+    1. git init : khi to một git repo ở dưới máy tính của mình
+    2. git remote add origin [url_repo] : liên kết một repository 
+    3. git clone [url_repo] + <folder: chứa clone mới tải về>: tải một remote repo về máy
+    4. git add [file] : cho file vào Staging area
+    5. git commit -m"message"
+    6. git commit --amend -m "amend descriptive message": thay đổi lời nhắn
+    7. git push origin [brach-name] : upload all local brach to remote repo
+    8. git log
+    9. git checkout -b body-style ***: swith qua branch khác 
+    10. git diff -> dùng để xem các thay đổi giữa các commit
+    11. git log --oneline : đưa ra các commit đã thực hiện
+    12. git reset <file> : remove các file đang ở staging area 
+    13. gỉt fetch : đồng bộ remote repo xuống
+    14. git pull: đi kèm theo git fetch
+    15. git branch : cho biết mình đang ở nhánh nào của cây
+    16. git restore : đưa file hiện tại trở về Working tree
+    17. git merge <branch> : đưa những commit mới nhất từ <branch> đến branch hiện tại 
+    18. git push origin --delete tester01: xóa một brach ở remote
+    19. git rm --cached ./src/data.json: xóa file trên repo nhưng không xóa ở local
+Qui trình xử lý (WorkFlow) trên git
+    -> git commit: lưu lại những bản chụp(snapshot) của những thay đổi Working Directory
+        -> commit tới local repository -> push remote repo
+
+        --> đang thử test chức năng mới

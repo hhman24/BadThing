@@ -1,0 +1,22 @@
+## HTTP/HTTPS Protocol (hypertext tranfer protocol)
+> Là một phương thức truyền tải dữ liệu lên web
+
+- Dựa vào url mà server biết để làm gì gửi lên browser
+- Respond header dưới dạng raw data
+
+# GET
+- dùng để lấy dữ liệu
+
+# POST 
+- Gữi dữ liệu đi
+
+# HTTP respond
+- respond trả về nhận lại cái raw source code
+- Header <phần trống> body(render)
+
+# Status Code: mã phản hồi
+- 1xx: Thông tin
+- 2xx: Thành công
+- 3xx: Sự điều hướng lại
+- 4xx: Lỗi client
+- 5xx: Lỗi server

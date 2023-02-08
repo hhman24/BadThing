@@ -1,0 +1,52 @@
+# Mode cơ bản trong neovim
+- <Esc> : trở về mode mặc định(Normal)
+- <i> : chuyển sang mode insert
+- <a> : mode insert tại vị trí sau con trỏ
+- <A> : mode insert chuyển con trỏ tới cuối dòng
+- <o> : mode insert tạo một dòng mới ở dưới và chuyển con trỏ tới đầu dòng đó
+- <O> : mode insert tạo một dòng mới ở trên và chuyển con trỏ tới đầu dòng đó
+- <u> : giống với "Ctrl + z" Undo
+- <Ctrl + r> : Redo
+- <v> : mode visual chế độ bôi đen
+- <V> : mode visual bôi đen cả dòng
+- <viw> : mode visual bôi đen world mà con trỏ đang đặt
+- <ggVG> : mode visual bôi đen cả văn bản
+- <:> : mode command(mode để gõ các lệnh)
+- <:echo + giá trị> : mode command in một giá trị nào đó
+- <:let biến = dáiá trị> : mode command gán một giá trị cho biến
+
+# Điều hướng con trỏ chuột (Navigation)
+- <gg> : lên dòng dầu file và kí tự đầu dòng
+- <G> : xuống dòng cuối file và kí tự cuối dòng
+- <:line> : nhảy tới dòng
+- <w> : di chuyển đến world tiếp theo
+- <e> : kết thúc của từ hiện tại
+- <b> : di chuyên đến world trước đó
+- <0> : di chuyển đầu dòng
+- <$> : di chuyển cuối dòng
+
+# copy/paste/cut
+   -> cần bôi đen trước khi copy
+- <y> : copy đoạn text được bôi đen
+- <yy> : copy dòng hiện tại
+- <y$> : copy đến cuối dòng
+- <10yy> : copy 10 đòng đầu của file
+- <p> : paste dưới con trỏ
+- <P> : paste trên con trỏ
+- <d> : cut
+- <dd> : cut dòng hiện tại
+
+# Cụm chức năng liên qua đến tìm kiếm
+- </> : chức năng chuỗi cần tìm kiếm (Forward flash)
+- <*> : tìm kiếm world tại con trỏ chuột
+- <:noh> : tắt dòng highline của search
+
+# Replace
+- <:%s/test_cu/test_moi> : thay thế test cũ
+
+# Làm việc với nhiều cửa sổ
+- <:vs [File name]> : mở file và chia đôi cửa sổ
+- <Ctrl + R + mũi tên > : điều hướng con trỏ sau khi chia đôi màn hình
+- <Ctrl + R + H/J/K/L> : để đổi cửa sổ qua lại
+
+

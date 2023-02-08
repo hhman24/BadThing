@@ -1,0 +1,59 @@
+// {
+// 	"version": "2.0.0",
+// 	"tasks": [
+// 		{
+// 			"type": "cppbuild",
+// 			"label": "C/C++: g++.exe build active file",
+// 			"command": "D:\\msys64\\mingw64\\bin\\g++.exe",
+// 			"args": [
+// 				"-fdiagnostics-color=always",
+// 				"-g",
+// 				"-Wall",
+// 				"${file}",
+// 				"-o",
+// 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+// 			],
+// 			"options": {
+// 				"cwd": "${fileDirname}"
+// 			},
+// 			"problemMatcher": [
+// 				"$gcc"
+// 			],
+// 			"group": "build",
+// 			"detail": "compiler: D:\\msys64\\mingw64\\bin\\g++.exe"
+// 		},
+// 		{
+// 			"type": "shell",
+// 			"label": "Run C++ Program: g++.exe ",
+// 			"command": "D:\\msys64\\mingw64\\bin\\g++.exe -fdiagnostics-color=always -g -W \"${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe\"",
+// 			"options": {
+// 				"cwd": "${fileDirname}"
+// 			},
+// 			"problemMatcher": [
+// 				"$gcc"
+// 			],
+// 			"detail": "compiler: D:\\msys64\\mingw64\\bin\\g++.exe"
+// 		}
+// 	]
+// }
+
+// {
+//     "configurations": [
+//         {
+//             "name": "Win32",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [
+//                 "_DEBUG",
+//                 "UNICODE",
+//                 "_UNICODE"
+//             ],
+//             // "compilerPath": "D:\\msys64\\mingw64\\bin\\gcc.exe",
+//             "cStandard": "c17",
+//             "cppStandard": "c++23",
+//             "intelliSenseMode": "windows-gcc-x64"
+//         }
+//     ],
+//     "version": "4"
+// }
